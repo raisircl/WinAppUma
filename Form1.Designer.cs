@@ -107,6 +107,7 @@
             btnUpdate.TabIndex = 7;
             btnUpdate.Text = "Update";
             btnUpdate.UseVisualStyleBackColor = true;
+            btnUpdate.Click += btnUpdate_Click;
             // 
             // btnDelete
             // 
@@ -116,6 +117,7 @@
             btnDelete.TabIndex = 8;
             btnDelete.Text = "Delete";
             btnDelete.UseVisualStyleBackColor = true;
+            btnDelete.Click += btnDelete_Click;
             // 
             // dgv1
             // 
@@ -129,6 +131,7 @@
             dgv1.RowTemplate.Height = 29;
             dgv1.Size = new Size(549, 163);
             dgv1.TabIndex = 9;
+            dgv1.CellClick += dgv1_CellClick;
             // 
             // Form1
             // 
